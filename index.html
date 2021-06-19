@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+<br>
+<br>
+<br>
+<p id="output"></p>
+<input type="button" onclick="doOutput('^','op')" class="button button12" value="^">
+<input type="button" onclick="doOutput('√','op')" class="button button16" value="√ ">
+<input type="button" onclick="doOutput('log','op')" class="button button21" value="log">
+<input type="button" onclick="clearAnswer()" class="button button20" value="Clear ">
+<br>
+<input type="button" onclick="doOutput('sin','op')" class="button button18" value="sin">
+<input type="button" onclick="doOutput('cos','op')" class="button button19" value="cos">
+<input type="button" onclick="doOutput('tan','op')" class="button button22" value="tan">
+<input type="button" onclick="doOutput(PreviousAnswer,'num')" class="button55" value="Prev.Ans">
+<br>
+<input type="button" onclick="doOutput(7,'num')" class="button button7" value="7">
+<input type="button" onclick="doOutput(8,'num')" class="button button8" value="8">
+<input type="button" onclick="doOutput(9,'num')" class="button button9" value="9">
+<input type="button" onclick="doOutput('+','op')" class="button button10" value="+">
+<input type="button" onclick="RandomNumberGenerator()" class="button button100" value="RandNumGen">
+
+
+<br>
+<input type="button" onclick="doOutput(4,'num')" class="button button4" value="4">
+<input type="button" onclick="doOutput(5,'num')" class="button button5" value="5">
+<input type="button" onclick="doOutput(6,'num')" class="button button6" value="6">
+<input type="button" onclick="doOutput('–','op')" class="button button11" value="–">
+<input type="text" id="txtBox2" onkeydown="keyDown1(event)" style="visibility:hidden">
+<label for="txtBox2" id="4" style="visibility:hidden">-Lower Bound</label>
+<br>
+<input type="button" onclick="doOutput(1,'num')" class="button button1" value="1">
+<input type="button" onclick="doOutput(2,'num')" class="button button2" value="2">
+<input type="button" onclick="doOutput(3,'num')" class="button button3" value="3">
+<input type="button" onclick="doOutput('*','op')" class="button button13" value="*">
+<input type="text" id="txtBox3" onkeydown="keyDown1(event)" style="visibility:hidden" />
+<label for="txtBox3" id="3" style="visibility:hidden">-Upper Bound</label>
+
+<br>
+<input type="button" onclick="doOutput('0','num')" class="button button0" value="0">
+
+
+<input type="button" onclick="answer()" class="button button17" value="=">
+<input type="button" onclick="doOutput('/','op')" class="button button15" value="/">
+<input type="button" onclick="PlusMinus()" class="button button24" value="±">
+<br>
+
+
+</body>
+</html>
